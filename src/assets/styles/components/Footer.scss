@@ -1,0 +1,30 @@
+@import '../Vars.scss';
+
+.footer {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    padding:1rem 1rem;
+    justify-content: space-between;
+    background-color: $dark-color;
+}
+
+.footer img {
+    width: 56px;
+    margin-right: 1rem;
+}
+
+.footer__links li{
+    /* text-align: center; */
+    list-style: none;
+    padding: 4px;
+}
+    
+.footer__links li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer__links li a:hover{
+    text-decoration: underline;
+}

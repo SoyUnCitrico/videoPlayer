@@ -1,0 +1,37 @@
+.carousel {
+    width: 100%;
+    overflow: scroll;
+    padding:2rem;
+    position: relative;
+    background: #2A9D8F;
+}
+
+/* width */
+::-webkit-scrollbar {
+    display:none;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: none; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /* background: none;  */
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    /* background: #e76f51;  */
+}
+
+.carousel__container {
+    /* para que los elementos se vayan de corrido */
+    white-space: nowrap;
+    /* margin: 1rem 0; */
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    /* transition: 450ms -webkit-transform; */
+    transition: 450ms transform;
+    /* transition: 450ms transform, 450ms -webkit-transform; */
+    /* overflow-x: hidden; */
+}
