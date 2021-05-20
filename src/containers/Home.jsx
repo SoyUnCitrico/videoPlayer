@@ -13,12 +13,11 @@ import '../assets/styles/App.scss';
 
 const API = 'http://localhost:3000/initialState';
 
-const App = () => {
+const Home = () => {
 const initialState = useInitialState(API);
 console.log(initialState)
     return(
-        <div className="App">
-        <Header/>
+        <>
         <Search/>
         {initialState.mylist.length > 0 &&
             (<Categories title='Mi Lista'>
@@ -45,11 +44,8 @@ console.log(initialState)
                 )}
             </Carousel>
         </Categories>
-
-
-        <Footer/>
-    </div>
+    </>
     );
 }
 
-export default App;
+export default Home;

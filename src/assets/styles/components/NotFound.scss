@@ -1,0 +1,29 @@
+@import '../Vars.scss';
+
+.notFound__main {
+    display:grid;
+    place-items: center;
+}
+
+.notFound__card {
+    // background-color: $dark-color;
+    text-align: center;
+    color: white;
+    margin: 2rem;
+    padding: 1rem 1rem 2rem;
+}
+
+.notFound__card h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.notFound__link {
+    
+    text-decoration: none;
+    color: white;
+}
+
+.notFound__link:hover {
+    text-decoration: underline;
+}
